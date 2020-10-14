@@ -33,7 +33,7 @@ body{
   color: white;
   font-size: 28px;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 500;
 
 }
 
@@ -43,6 +43,29 @@ body{
   background: grey;
   margin-bottom: 15px;
 }
+
+.nav ul{
+  list-style: none;
+}
+
+.nav ul li{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 0 7px;
+}
+
+.nav ul li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;}
+
+.menu li:hover{
+  text-decoration: underline;
+  background-color: #504741;
+}
+
 
 .sidebar_left{
   height: 450px;
