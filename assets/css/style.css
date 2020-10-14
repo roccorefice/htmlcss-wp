@@ -23,6 +23,7 @@ body{
   background-image: url("../img/header_bg.jpg");
   border: 10px solid white;
   background-size: cover;
+  margin-top: 25px;
   }
 
 .logo{
@@ -167,11 +168,6 @@ body{
   margin-top: 15px;
 }
 
-
-
-
-
-
 main::after{
   content: "";
   display: table;
@@ -182,9 +178,52 @@ main::after{
   float: left;
 }
 
+/* fine main */
+
+/* footer */
 .footer{
-  height: 150px;
-  width: auto;
-  background-color: white;
+  width: 100%;
   border-radius: 10px;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
+
+.footer span{
+  color: grey;
+  font-style: italic;
+  line-height: 25px;
+  background-color: white;
+}
+
+hr{
+  border: inset;
+  margin: 5px;
+}
+
+.footer div{
+  background-color: white;
+  height: 150px;
+  width: 33%;
+  position: relative;
+}
+
+.footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fb, .ig, .git{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: lightgrey;
+}
+
+.footer i:hover{
+  color: grey;
+}
+/* fine footer */
